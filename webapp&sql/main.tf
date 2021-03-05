@@ -52,7 +52,7 @@ resource "azurerm_sql_server" "example" {
   resource_group_name = azurerm_resource_group.rg.location
   version                      = "12.0"
   administrator_login          = "Admin1234567"
-  administrator_login_password = "Admin1234567"
+  administrator_login_password = "Admin@1234567"
 }
 
 resource "azurerm_storage_account" "example" {
