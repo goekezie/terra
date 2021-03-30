@@ -14,8 +14,8 @@ resource "azurerm_app_service_plan" "example" {
   resource_group_name = azurerm_resource_group.rg.name
 
   sku {
-    tier = "Standard"
-    size = element(var.sku, count.index)
+    tier = element(var.sku_tier, count.index)
+    size = element(var.sku_size, count.index)
   }
 }
 
