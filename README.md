@@ -1,2 +1,1 @@
-# terra
-terraform templates
+# Arsenal of terraform templates
