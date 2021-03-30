@@ -21,5 +21,4 @@ variable "app_service_name" {
 
 variable "app_service_plan_id" {
   description = "The app service plan id"
-  default     = ["Standard", "PremiumV2"]
 }
