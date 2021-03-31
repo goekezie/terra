@@ -16,9 +16,9 @@ variable "sku_tier" {
 
 variable "app_service_name" {
   description = "The name used to identify the app service"
-#   default     = ["tailspin-space-game-web-dev-909", "tailspin-space-game-web-test-909", "tailspin-space-game-web-staging-909"]
+
 }
 
-# variable "app_service_plan_id" {
-#   description = "The app service plan id"
-# }
+variable "count" {
+  description = "The number of resources required for creation"
+}
