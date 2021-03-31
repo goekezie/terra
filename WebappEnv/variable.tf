@@ -19,6 +19,6 @@ variable "app_service_name" {
 #   default     = ["tailspin-space-game-web-dev-909", "tailspin-space-game-web-test-909", "tailspin-space-game-web-staging-909"]
 }
 
-variable "app_service_plan_id" {
-  description = "The app service plan id"
-}
+# variable "app_service_plan_id" {
+#   description = "The app service plan id"
+# }
