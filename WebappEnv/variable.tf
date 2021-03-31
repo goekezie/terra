@@ -1,25 +1,25 @@
 variable "app_service_plan_name" {
   description = "The name used to identify the app service"
-  default     = ["tailspin-space-game-test-asp"]
+  
 }
 
 variable "sku_size" {
   description = "The sku size"
-  default     = ["B1"]
+  
 }
 
 variable "sku_tier" {
   description = "The sku tier"
-  default     = ["Standard"]
+
 }
 
 
-variable "app_service_name" {
+variable "app_service_name_dev" {
   description = "The name used to identify the app service"
 
 }
 
-variable "count_num" {
-  description = "The number of resources required for creation"
-  default     = 1
+variable "app_service_name_prod" {
+  description = "The name used to identify the app service"
+
 }
