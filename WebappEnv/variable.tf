@@ -19,7 +19,7 @@ variable "app_service_name" {
 
 }
 
-variable "count" {
+variable "count_num" {
   description = "The number of resources required for creation"
   default     = 1
 }
