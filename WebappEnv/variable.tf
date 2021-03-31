@@ -1,16 +1,16 @@
 variable "app_service_plan_name" {
   description = "The name used to identify the app service"
-  default     = ["tailspin-space-game-test-asp", "tailspin-space-game-prod-asp"]
+  default     = ["tailspin-space-game-test-asp"]
 }
 
 variable "sku_size" {
   description = "The sku size"
-  default     = ["B1", "P1V2"]
+  default     = ["B1"]
 }
 
 variable "sku_tier" {
   description = "The sku tier"
-  default     = ["Standard", "PremiumV2"]
+  default     = ["Standard"]
 }
 
 
