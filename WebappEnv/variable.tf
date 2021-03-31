@@ -21,4 +21,5 @@ variable "app_service_name" {
 
 variable "count" {
   description = "The number of resources required for creation"
+  default     = 1
 }
